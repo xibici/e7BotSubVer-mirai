@@ -27,8 +27,6 @@ public class Configure {
     public static String auto11pmDate;
     static {
         //读取文件
-        //account=401460519;
-        //password="Zyl1996223";
         if(System.getProperties().getProperty("os.name").equals("Windows 10")){
             fileBasePath="F:\\e7\\";
             }else {
